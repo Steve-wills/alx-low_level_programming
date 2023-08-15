@@ -1,15 +1,14 @@
 #include <unistd.h>
-#include <math.h>
-#include <main.h>
+#include "main.h"
 /**
- * main - Entry point
+ * main - check the code
  *
- * Return: 0 (success)
+ * Return: Always 0
  */
 
-int _putchar(char p);
+int _putchar(char c);
 
-int main() {
+int main(void) {
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -21,6 +20,6 @@ int main() {
 	_putchar('\n');
 	return (0);
 }
-int _putchar(char p) {
-	return write(1, &p, 1);
+int _putchar(char c) {
+	return write(1, &c, 1);
 }
