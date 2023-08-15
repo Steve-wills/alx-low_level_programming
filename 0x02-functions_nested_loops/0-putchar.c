@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <math.h>
+#include <main.h>
 /**
  * main - Entry point
  *
